@@ -2,7 +2,7 @@
 node server.js
 
 ## terminal 1
-node main.js
+node client.js
 
 ## terminal 2
-node main.js
+node client.js
