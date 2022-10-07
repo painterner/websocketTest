@@ -13,7 +13,8 @@ const createClient = (url, props) => {
 
     // Listen for messages
     socket.addEventListener('message', function (event) {
-        console.log('Message from server ', event.data);
+        console.log('Message from server');
+        console.log(event.data)
     });
         
     const startRepl = () => {
